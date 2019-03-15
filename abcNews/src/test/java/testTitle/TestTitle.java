@@ -22,4 +22,11 @@ public class TestTitle  extends BaseClient {
 //        driver.findElement(By.id("#searchinput")).click();
 
     }
+
+    @Test
+    public void test3(){
+        String title = driver.getTitle();
+        System.out.println(title);
+
+    }
 }

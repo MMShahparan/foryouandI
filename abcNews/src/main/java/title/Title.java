@@ -11,7 +11,9 @@ public class Title extends BaseClient {
         System.out.println(driver.getTitle());
     }
 
+
     public void getUrl(){
         System.out.println(driver.getCurrentUrl());
     }
+
 }
