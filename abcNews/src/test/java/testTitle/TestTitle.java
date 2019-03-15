@@ -45,3 +45,5 @@ public class TestTitle  extends BaseClient {
 }
 //I think I am in test2 branch, i switched to a new branch by doing " git checkout -b test2, I have to commit nd push changes to the test2 branch
 //so that i can see changes between the master and test2 branch
+//I was able to switch between branches, and if it asked to commit too many times, I can just use git statsh as a command.
+//Now I will commit the changes and push to test 2 branch then attempt to push to Juwel's TestBranch, if not this will go to his master.
