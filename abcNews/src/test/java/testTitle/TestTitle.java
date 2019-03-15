@@ -47,3 +47,5 @@ public class TestTitle  extends BaseClient {
 //so that i can see changes between the master and test2 branch
 //I was able to switch between branches, and if it asked to commit too many times, I can just use git statsh as a command.
 //Now I will commit the changes and push to test 2 branch then attempt to push to Juwel's TestBranch, if not this will go to his master.
+
+//right now I will make a new change, commit to my test2 branch, then push it to Juwel's test2 branch.
