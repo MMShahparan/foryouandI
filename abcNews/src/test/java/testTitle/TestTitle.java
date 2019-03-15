@@ -13,7 +13,7 @@ public class TestTitle  extends BaseClient {
     }
     @Test
     public void test1(){
-        driver.findElement(By.xpath("//a[@href='https://www.facebook.com/UltaBeauty/']")).click();
+        driver.findElement(By.xpath("//*[@id='canada']//a[contains(@href,'facebook')]")).click();
         //driver.findElement(By.xpath("//a[@class='fb-icon pop-over-social']//span[text()='Ulta Beauty on Facebook']")).click();
 
     }
